@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+* {
+    font-family: "Song Myung", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+p,
+li {
+    font-size: large;
+}
+
+body {
+    background-color: #001f3f;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+p, pre {
+    color: #f5f5dc;
+}
+
+pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+strong {
+    color: #800020;
+}
+
+ul {
+    color: #6a0dad;
+}
+
+#ajaxInfo {
+    height: 500px;
+    overflow-y: auto;
+}
