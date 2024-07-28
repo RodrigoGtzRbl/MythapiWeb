@@ -45,34 +45,46 @@
             <ul class="list-group">
                 <li class="list-group-item"><strong>Mythical Characters:</strong> Get information about heroes and
                     legendary figures from different mythologies, including details about their powers, abilities, and
-                    family relationships.</li>
-                <li class="list-group-item"><strong>Mythical Creatures:</strong> Explore fantastic creatures and
-                    monsters from mythology, with descriptions of their powers and characteristics.</li>
-                <li class="list-group-item"><strong>Gods and Deities:</strong> Access data about gods and supernatural
-                    entities from various religions and mythologies, including their roles, attributes, and associated
-                    myths.</li>
-                <li class="list-group-item"><strong>Mythical Places:</strong> Discover legendary and sacred places in
-                    mythical stories, with information about their importance and connections to other mythical figures.
+                    family relationships.
                 </li>
+
+                <li class="list-group-item"><strong>Mythical Creatures:</strong> Explore fantastic creatures and
+                    monsters from diferent mythologies, with descriptions of their powers and relations.
+                </li>
+
+                <li class="list-group-item"><strong>Gods and Deities:</strong> Access data about gods and deities from various mythologies, with descriptions of their powers and relations.
+                </li>
+
+                <li class="list-group-item"><strong>Heroes:</strong> Discover legendary heroes from various mythologies, with descriptions of their powers and relations.
+                </li>
+
                 <li class="list-group-item"><strong>Mythical Artifacts:</strong> Consult details about magical objects
-                    and mythical artifacts, including their powers and legends.</li>
+                    and mythical artifacts, including their powers and relations.
+                </li>
+
+                <li class="list-group-item"><strong>Myths:</strong> Consult basic details about myths from various mythologies, incluiding description, hero's name from the myth, creatures and artifacts involved.
+                </li>
             </ul>
-            <p>Only Gods and Mythical characters for the moment</p>
         </section>
 
         <section class="container pt-5">
             <h2 class="mt-4">How to Use</h2>
             <ul class="list-group">
                 <div class="row g-0">
-                    <div class="col-6">
-                        <li class="list-group-item"><strong>GET /mythapi/all</strong></li>
+                    <div class="col-12">
+                        <h4 class="ms-5">Using the name of the archive and the ID/name of the object to search</h4>
                     </div>
+
+                    <div class="col-6">
+                        <li class="list-group-item"><strong>GET /archive/all</strong></li>
+                    </div>
+
                     <div class="col-6">
                         <li class="list-group-item">Lists all characters.</li>
                     </div>
 
                     <div class="col-6">
-                        <li class="list-group-item"><strong>GET /mythapi/id/:id</strong></li>
+                        <li class="list-group-item"><strong>GET /archive/id/:id</strong></li>
                     </div>
                     <div class="col-6">
                         <li class="list-group-item">Retrieves details of a specific
@@ -80,8 +92,22 @@
                     </div>
 
                     <div class="col-6">
-                        <li class="list-group-item"><strong>GET /mythapi/name/:name</strong></li>
+                        <li class="list-group-item"><strong>GET /archive/name/:name</strong></li>
                     </div>
+
+                    <div class="col-6">
+                        <li class="list-group-item">Retrieves details of a
+                            specific character using their name.</li>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                        <h4 class="ms-5">Using only name of the object to search</h4>
+                    </div>
+
+                    <div class="col-6">
+                        <li class="list-group-item"><strong>GET /search/:name</strong></li>
+                    </div>
+
                     <div class="col-6">
                         <li class="list-group-item">Retrieves details of a
                             specific character using their name.</li>
