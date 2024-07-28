@@ -32,11 +32,11 @@ pre{
     word-wrap: break-word;
 }
 
-strong {
+strong, span {
     color: #800020;
 }
 
-ul {
+ul{
     color: #923ad2;
 }
 
