@@ -44,3 +44,6 @@ ul {
     height: 500px;
     overflow-y: auto;
 }
+#logo {
+    width: 333px;
+}
