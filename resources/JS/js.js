@@ -30,7 +30,7 @@ $(document).ready(function () {
     }
 
     function createRandomPlaceholder() {
-        const files = ['GodsAndDeities', 'Heroes', 'MythicalArtifacts', 'MythicalCreatures', 'Myths'];
+        const files = ['GodsAndDeities', 'Heroes', 'MythicalArtifacts', 'Creatures', 'Myths'];
         const file = files[Math.floor(Math.random() * files.length)];
 
         let access;
